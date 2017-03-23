@@ -380,6 +380,6 @@ dat$pek=pek; dat$shiftage=shiftage; dat$s1=s1;
 test = foreach(m=1:1000) %dopar% myfunc(m)
 test2 = do.call("rbind", test)
 
-write.csv(test2,"listaugd3.csv")
+write.csv(test2,"listaugd.csv")
 
 
